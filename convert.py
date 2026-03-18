@@ -147,14 +147,13 @@ def html_to_markdown(html_text):
     return parser.get_markdown()
 
 
-def sanitize_filename(name):
-    # Remove characters invalid in filenames
-    name = re.sub(r'[<>:"/\\|?*]', "", name)
-    name = re.sub(r"\s+", " ", name).strip()
-    # Truncate to reasonable length
-    if len(name) > 80:
-        name = name[:80].strip()
-    return name
+def extract_slug(link):
+    """Extract note ID from URL like https://note.com/workhack20/n/n15fd69d626b1."""
+    if link:
+        m = re.search(r"/n/(\w+)$", link)
+        if m:
+            return m.group(1)
+    return None
 
 
 def parse_date(date_str):
@@ -198,10 +197,10 @@ def main():
 
         full_content = frontmatter + "\n" + markdown_body + "\n"
 
-        # Filename: NNN_title.md
+        # Filename: NNN_slug.md (slug from note URL ID)
         num = str(i + 1).zfill(3)
-        safe_name = sanitize_filename(title)
-        filename = f"{num}_{safe_name}.md"
+        slug = extract_slug(link) or f"article{num}"
+        filename = f"{num}_{slug}.md"
         filepath = os.path.join(OUTPUT_DIR, filename)
 
         with open(filepath, "w", encoding="utf-8") as f:
