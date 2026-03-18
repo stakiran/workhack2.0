@@ -1,0 +1,69 @@
+---
+title: "XX(XXXX Transformation)"
+url: https://note.com/workhack20/n/nbeef6084961d
+date: 2024-11-21
+---
+
+**XX（XXXX Transformation、なんとかトランスフォーメーション）**を整理します。
+
+## 全般知識
+
+### そもそもトランスフォーメーションとは？
+
+変革を意味します。直訳が「変態」であるように、根本からガラリと変わるニュアンスがあります。
+
+少なくとも「組織パラダイム」または「働き方」のいずれが変革されます。
+
+### なぜTransformationがXになるのか
+
+Transに「交差する」の意味があり、Cross（そしてその略称であるX）を充てることができるからです。
+
+## DX(Digital Transformation)
+
+**デジタル**への変革を指します。「働き方」が変わります。
+
+GAFAMに代表されるように、デジタル（IT）の力は絶大ですが、この力を享受するにはデジタルの流儀に従わねばなりません。
+
+ITエンジニアにはお手の物ですが、大多数のマジョリティはそうではないため、長期的な投資と訓練を要します。
+
+当サイトでもいくつか記事を書いています:
+
+[https://note.com/workhack20/n/n3f7ab4d17e36](https://note.com/workhack20/n/n3f7ab4d17e36)
+
+[https://note.com/workhack20/n/n7aeae764c4a5](https://note.com/workhack20/n/n7aeae764c4a5)
+
+## AX(Async Transformation)
+
+**非同期**への変革を指します。「働き方」が変わります。
+
+現代は VUCA だといわれますが、当サイトでは Diversity と Remote を加えた [VUCARD](https://note.com/workhack20/n/nd87c0fece485) を提唱しています。
+
+現代は個人の生活水準が上がっており、各々の生活を尊重することが当たり前になりつつある――は言い過ぎですが、尊重できない会社は選ばれなくなってきています。
+
+尊重できるかどうかを分かつのがコミュニケーションの仕方であり、時間と場所を拘束する同期コミュニケーションから、**拘束しない非同期コミュニケーションにシフトできるかどうかが鍵**です。
+
+ここでトランスフォーメーションレベルのシフトを要します。AXと呼ぶことにしました。
+
+[https://note.com/workhack20/n/n39a9ec043ddb](https://note.com/workhack20/n/n39a9ec043ddb)
+
+AXができない組織は、結局同期コミュニケーションを手放すことができません。これは投資に踏み切れずにDXを始められないのと同じ構図です。
+
+## PX(Peace Transformation)
+
+**ティール組織におけるPeace（平和）**への変革を指します。「組織パラダイム」が変わります。
+
+ティール組織では資本主義的なあり方から抗います。この概念にはまだ名前がついていませんが、当サイトではPeace（平和）という言葉を使っています。
+
+営利第一になるのではなく、それを強要する現状のあり方に迎合するのでもなく、持続的に自分たちの使命を果たすことを考えます。利益はその結果としてついてくるものと捉えます。
+
+詳細は以下記事を見てください。
+
+[https://note.com/workhack20/n/n68aaf917c2b7](https://note.com/workhack20/n/n68aaf917c2b7)
+
+## DocX(Documentation Transformation)
+
+ドキュメントを重用した働き方への変革を指します。
+
+[https://note.com/workhack20/n/n95643fe60024](https://note.com/workhack20/n/n95643fe60024)
+
+2025/01 現在、GitLab 社と Helpfeel 社が該当します。他にも当てはまる企業はあると思います。よろしければ教えてください（コメント欄開放中、その他[お問い合わせ](https://lit.link/workhack20)からでも）。
