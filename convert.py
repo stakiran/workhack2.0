@@ -176,8 +176,9 @@ def main():
 
     os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-    index_entries = []
-
+    # First pass: build slug-to-(filename, title) mapping
+    article_map = {}  # note_id -> (filename, title)
+    articles = []
     for i, item in enumerate(items):
         title = item.find("title").text or "(無題)"
         link = item.find("link").text or ""
@@ -188,24 +189,45 @@ def main():
         dt = parse_date(pub_date_str)
         date_str = dt.strftime("%Y-%m-%d") if dt else ""
 
+        num = str(i + 1).zfill(3)
+        slug = extract_slug(link) or f"article{num}"
+        filename = f"{num}_{slug}.md"
+
+        if slug:
+            article_map[slug] = (filename, title)
+
+        articles.append((title, link, date_str, html_content, filename))
+
+    index_entries = []
+
+    for title, link, date_str, html_content, filename in articles:
         markdown_body = html_to_markdown(html_content)
 
+        # Replace internal note.com links with local file links
+        def replace_internal_link(m):
+            note_id = m.group(1)
+            if note_id in article_map:
+                local_filename, local_title = article_map[note_id]
+                return f"[{local_title}]({local_filename})"
+            return m.group(0)
+
+        markdown_body = re.sub(
+            r"\[(?:[^\]]*)\]\(https://note\.com/workhack20/n/(\w+)\)",
+            replace_internal_link,
+            markdown_body,
+        )
+
         # Build frontmatter
-        # Escape quotes in title for YAML
         safe_title = title.replace('"', '\\"')
         frontmatter = f'---\ntitle: "{safe_title}"\nurl: {link}\ndate: {date_str}\n---\n'
 
         full_content = frontmatter + "\n" + markdown_body + "\n"
 
-        # Filename: NNN_slug.md (slug from note URL ID)
-        num = str(i + 1).zfill(3)
-        slug = extract_slug(link) or f"article{num}"
-        filename = f"{num}_{slug}.md"
         filepath = os.path.join(OUTPUT_DIR, filename)
-
         with open(filepath, "w", encoding="utf-8") as f:
             f.write(full_content)
 
+        num = filename[:3]
         index_entries.append((num, title, date_str, filename))
 
     # Write index file

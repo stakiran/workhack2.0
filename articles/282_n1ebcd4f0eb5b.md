@@ -7,58 +7,58 @@ date: 2024-12-01
 今週は 15 記事書きました。
 当サイト開始から 11 週が経ちました。
 
-[←前 2024/11/17](https://note.com/workhack20/n/ndd8d4c10a476)
+[今週の記事 2024/11/17](266_ndd8d4c10a476.md)
 
-[2024/12/01 次→](https://note.com/workhack20/n/n5b470a94c971)
+[今週の記事 2024/12/01](300_n5b470a94c971.md)
 
 ## モンスター・エンジニアリング
 
-[https://note.com/workhack20/n/ne9a159d5f717](https://note.com/workhack20/n/ne9a159d5f717)
+[モンスター・エンジニアリング](267_ne9a159d5f717.md)
 
-[https://note.com/workhack20/n/nacf3e282cc31](https://note.com/workhack20/n/nacf3e282cc31)
+[ドライ・ケイパビリティ](271_nacf3e282cc31.md)
 
-[https://note.com/workhack20/n/n1c5bf01dd90b](https://note.com/workhack20/n/n1c5bf01dd90b)
+[オープンケージ（開放特区）](272_n1c5bf01dd90b.md)
 
 ## タスク管理
 
-[https://note.com/workhack20/n/n423ea2a2145c](https://note.com/workhack20/n/n423ea2a2145c)
+[先送りとタスク管理を両立する「いつやるシート」](270_n423ea2a2145c.md)
 
 ## 多様性
 
-[https://note.com/workhack20/n/n0d4763f3adb9](https://note.com/workhack20/n/n0d4763f3adb9)
+[ファミリー・ダイバーシティ](274_n0d4763f3adb9.md)
 
-[https://note.com/workhack20/n/nb8745776eeb2](https://note.com/workhack20/n/nb8745776eeb2)
+[ハンディキャップ度合いを推し量る「NSD」](278_nb8745776eeb2.md)
 
 ## 組織変革
 
-[https://note.com/workhack20/n/n45e75d301d32](https://note.com/workhack20/n/n45e75d301d32)
+[VUCAに勝つための組織 「●●特区」](279_n45e75d301d32.md)
 
 ## 情報共有
 
-[https://note.com/workhack20/n/ned9bca665a1c](https://note.com/workhack20/n/ned9bca665a1c)
+[「ページズム」 文書よりもページ](281_ned9bca665a1c.md)
 
 ## できない人向けのハック
 
-[https://note.com/workhack20/n/n966ab91bd872](https://note.com/workhack20/n/n966ab91bd872)
+[リストをつくれない人は負荷をかけると良さそう](269_n966ab91bd872.md)
 
-[https://note.com/workhack20/n/n5b28be80950d](https://note.com/workhack20/n/n5b28be80950d)
+[スマホをバッグで封印する](280_n5b28be80950d.md)
 
 ## 仕事の種類
 
-[https://note.com/workhack20/n/n60cc3ab03e66](https://note.com/workhack20/n/n60cc3ab03e66)
+[ティピカルワーク](268_n60cc3ab03e66.md)
 
 ## 自動化
 
-[https://note.com/workhack20/n/nb9451d1f1b80](https://note.com/workhack20/n/nb9451d1f1b80)
+[完璧主義をやめれば自動化に近づく 「ツールド・ベストエフォート」](273_nb9451d1f1b80.md)
 
 ## パラダイムシフト
 
-[https://note.com/workhack20/n/n303da7d1ec2a](https://note.com/workhack20/n/n303da7d1ec2a)
+[イシュードリブン、ギャザードリブン、コンセプトドリブン](275_n303da7d1ec2a.md)
 
 ## 高頻度なフィードバック
 
 (ワーク・ゲーミフィケーション)
 
-[https://note.com/workhack20/n/ne28b1415da14](https://note.com/workhack20/n/ne28b1415da14)
+[コンテキスト・ワークショップ](276_ne28b1415da14.md)
 
-[https://note.com/workhack20/n/nb733035cf5e3](https://note.com/workhack20/n/nb733035cf5e3)
+[モブワーク](277_nb733035cf5e3.md)

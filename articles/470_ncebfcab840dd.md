@@ -70,7 +70,7 @@ date: 2025-06-03
 
 当サイトでも以前解説しました。
 
-[https://note.com/workhack20/n/ncbf2b13df0ab](https://note.com/workhack20/n/ncbf2b13df0ab)
+[静かに退職する若者たちを動かす仕事術](197_ncbf2b13df0ab.md)
 
 当サイトはまさに仕事術（仕事のやり方・考え方）を扱っており、大いに参考になるはずです。
 
